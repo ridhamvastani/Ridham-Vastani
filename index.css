@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo css  */
+
+.logo{
+    width: 15%;
+    height: 80px;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* navigation css  */
+.nav{
+    width: 35%;
+    height: 80px;
+    /* background-color: yellow; */
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-link{
+    list-style-type:none;
+    height: 80px;
+    width: 25%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 80px;
+    font-family: 'segoe UI';
+    cursor: pointer;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* banner css  */
+
+.banner{
+    height: 700px;
+    width: 100%;
+    background-color: blue;
+    background-image: url('./images/banner-img.jpg.crdownload');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section{
+    height: 200px;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 10%;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'segoe UI';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #d00b0b;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ea0f0f;
+}
+
+/* films css  */
+
+.films{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.films-container{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'segoe UI';
+}
+
+.film-card{
+    width: 22%;
+    height: 450px;
+    background-color: yellow;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.film-detail{
+    height: 225px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.film-detail:hover{
+    height: 450px;
+}
+
+.film-title{
+    color: white;
+    font-family: 'segoe UI';
+    font-size: 40px;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.card-1{
+    background-image: url('https://i.pinimg.com/originals/d9/86/b0/d986b00ecfeb4e8af7b3eb06640a9833.jpg');
+}
+
+.card-2{
+    background-image: url('https://i.pinimg.com/736x/0a/60/94/0a609461ee8815d563f0d2bdc310dd0a--movie-titles-the-movie.jpg');
+}
+
+.card-3{
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2020/02/thedarkknightrises1.jpg');
+}
+
+.card-4{
+    background-image: url('https://ae01.alicdn.com/kf/H942f5e879af04853ba51096ec35f255f2/Hot-Classic-Mad-Max-Fury-Road-Immortan-Joe-Movie-Silk-Fabric-Wall-Poster-Art-Decor-Sticker.jpg_Q90.jpg_.webp');
+}
+
+.card-5{
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg');
+}
+
+
+
